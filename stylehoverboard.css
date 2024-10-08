@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #708896;
+  }
+  
+  #hoverButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #002c3b;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Needed to move it around */
+    transition: 0.2s ease; /* Smooth transition */
+  }
